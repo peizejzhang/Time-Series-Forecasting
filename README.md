@@ -22,6 +22,6 @@ This repository contains final group project materials of STA457 Winter 2025 rel
     - Change file_address_price to the location of Daily Prices_ICCO.csv.
     - Change file_address_weather to the location of Ghana_data.csv.
 ## Acknowledgement
-The work was conducted as a team-based Kaggle project with Binhe Jia.
+This team-based Kaggle project was led by Peize Zhang and completed in collaboration with Binhe Jia, Haoyuan Chen, and Jinting Liu.
 The original team repository is available at:
 https://github.com/Binhe-Jia/Cocoa_Price_Forecasting
