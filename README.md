@@ -11,9 +11,14 @@ This repository contains final group project materials of STA457 Winter 2025 rel
 - API_PA.NUS.FCRF_DS2_en_csv_v2_13510.csv: Historical (annualized) exchange rate of currencies to USD between 1960 and 2023
 - 457_clean_version_forcast2.Rmd.rmd: R-markdown file containing our R code for the GAM model.
 - SARIMA.Rmd.rmd: R-markdown file containing our R code for the SARIMA model.
-- STA457_Final_Project.pdf: Our final project report
+- STA457_Final_Project.pdf: Our final project report.
+
 ## Running the code
-- Make sure that all libraries are installed properly.
+- install.packages(c(
+  "dplyr", "lubridate", "forecast", "tseries",
+  "astsa", "mgcv", "patchwork", "tidyr",
+  "zoo", "purrr", "ggplot2", "knitr"
+))
 - For 457_clean_version_forcast2.Rmd.rmd:
     - Change file_address_price to the location of Daily Prices_ICCO.csv.
     - Change file_address_weather to the location of Ghana_data.csv
@@ -21,6 +26,11 @@ This repository contains final group project materials of STA457 Winter 2025 rel
 - For SARIMA.Rmd.rmd:
     - Change file_address_price to the location of Daily Prices_ICCO.csv.
     - Change file_address_weather to the location of Ghana_data.csv.
+## Result
+| Model | Test RMSE |
+|---|---:|
+| ARIMA(1,1,0) | 2059.942 |
+| GAM with Time and Exchange Rate | **1430.807** |
 ## Acknowledgement
 This team-based Kaggle project was led by Peize Zhang and completed in collaboration with Binhe Jia, Haoyuan Chen, and Jinting Liu.
 The original team repository is available at:
