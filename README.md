@@ -19,11 +19,11 @@ This repository contains final group project materials of STA457 Winter 2025 rel
   "astsa", "mgcv", "patchwork", "tidyr",
   "zoo", "purrr", "ggplot2", "knitr"
 ))
-- For 457_clean_version_forcast2.Rmd.rmd:
+- For gam_analysis.rmd:
     - Change file_address_price to the location of Daily Prices_ICCO.csv.
     - Change file_address_weather to the location of Ghana_data.csv
     - Change file_address_exchange_rate to the location of API_PA.NUS.FCRF_DS2_en_csv_v2_13510.csv.
-- For SARIMA.Rmd.rmd:
+- For arima_analysis.rmd:
     - Change file_address_price to the location of Daily Prices_ICCO.csv.
     - Change file_address_weather to the location of Ghana_data.csv.
 ## Result
@@ -32,6 +32,5 @@ This repository contains final group project materials of STA457 Winter 2025 rel
 | ARIMA(1,1,0) | 2059.942 |
 | GAM with Time and Exchange Rate | **1430.807** |
 ## Acknowledgement
-This team-based Kaggle project was led by Peize Zhang and completed in collaboration with Binhe Jia, Haoyuan Chen, and Jinting Liu.
-The original team repository is available at:
+This team-based Kaggle project was led by Peize Zhang and completed in collaboration with Binhe Jia, Haoyuan Chen, and Jinting Liu. The original team repository is available at:
 https://github.com/Binhe-Jia/Cocoa_Price_Forecasting.
