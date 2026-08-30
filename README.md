@@ -1,5 +1,5 @@
 # A-Comparative-approach-to-Forecasting-Cocoa-Price-Using-SARIMA-and-GAM-Models
-This repository contains final group project materials of STA457 Winter 2025 related to cocoa price modeling using ARIMA/SARIMA and GAM. Please open an issue in case of any difficulty running the R markdown files
+This repository contains final group project materials of STA457 Winter 2025 related to cocoa price modeling using ARIMA/SARIMA and GAM. Please open an issue in case of any difficulty running the R markdown files.
 
 ## Detail
 - Programming Language: R
@@ -24,4 +24,4 @@ This repository contains final group project materials of STA457 Winter 2025 rel
 ## Acknowledgement
 This team-based Kaggle project was led by Peize Zhang and completed in collaboration with Binhe Jia, Haoyuan Chen, and Jinting Liu.
 The original team repository is available at:
-https://github.com/Binhe-Jia/Cocoa_Price_Forecasting
+https://github.com/Binhe-Jia/Cocoa_Price_Forecasting.
